@@ -19,6 +19,12 @@ allprojects {
     }
 }
 android{
+        compileSdkVersion 17
+        buildToolsVersion "19.0.3"
+        defaultConfig {
+       		 minSdkVersion 9
+       		 targetSdkVersion 18
+        }
 
 	signingConfigs {
 	
