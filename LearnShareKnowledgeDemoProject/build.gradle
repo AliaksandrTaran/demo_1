@@ -21,10 +21,10 @@ allprojects {
 signingConfigs {
 
    release {
-       storeFile file('debug.keystore')
-       storePassword android
-       keyAlias android
-       keyPassword android
+       storeFile file("debug.keystore")
+       storePassword "android"
+       keyAlias "android"
+       keyPassword "android"
    }
 }
 
